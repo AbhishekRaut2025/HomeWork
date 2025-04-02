@@ -27,7 +27,7 @@ console.log("hello")
 var c=120;
  
 do {
-    console.log("Do While Loop")
+    console.log("hii")
     c++;
  } while (c<20);
 
@@ -35,7 +35,7 @@ do {
 //Creating Array
 A = [1,2,3,4,5]
 
-//POP Operation
+
 
 
 
@@ -76,7 +76,27 @@ for(var key in obj){
 
 
 
-// call back functions-  
-// new comment
+// call back functions- 
+function hello(){
+    setTimeout(function () {
+        console.log("Hello");
+    }, 5000);
+}
 
- 
+// besic ft arrow fnc
+var a = (abhi)=>{
+    console.log(abhi);
+}
+
+a(2);
+
+
+//Higher Order fnc
+function abcd (val){
+}
+
+abcd(function(){})
+
+
+
+
